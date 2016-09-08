@@ -37,6 +37,7 @@ color: #410051;
 
 .column1 {font: 20pt/1 Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	text-decoration: underline;}
 
 .column20 {font: 20pt/1 Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -47,7 +48,16 @@ color: #410051;
 .question {font: 12pt/1 Arial, Helvetica, sans-serif;
 	font-weight: bold;}
 
-
-}
-
-.bild {background-image: url(fireworks_small.jpg);}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;}
